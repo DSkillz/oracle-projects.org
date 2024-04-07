@@ -1,0 +1,139 @@
+html {
+		height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #000000;
+}
+
+@font-face {
+    font-family: 'space_ageregular';
+    src: url('/space-age_webfontkit/space age-webfont.eot');
+    src: url('/space-age_webfontkit/space age-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/space-age_webfontkit/space age-webfont.woff2') format('woff2'),
+         url('/space-age_webfontkit/space age-webfont.woff') format('woff'),
+         url('/space-age_webfontkit/space age-webfont.ttf') format('truetype'),
+         url('/space-age_webfontkit/space age-webfont.svg#space_ageregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aeroliteregular';
+    src: url('/aerolite_webfontkit/Aerolite-webfont.eot');
+    src: url('/aerolite_webfontkit/Aerolite-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/aerolite_webfontkit/Aerolite-webfont.woff2') format('woff2'),
+         url('/aerolite_webfontkit/Aerolite-webfont.woff') format('woff'),
+         url('/aerolite_webfontkit/Aerolite-webfont.ttf') format('truetype'),
+         url('/aerolite_webfontkit/Aerolite-webfont.svg#aeroliteregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#mousetop, #mouseleft, #offsetLeft, #offsetTop {
+	color: blue;
+	display: inline-block;
+	margin-left: 50px;
+	width: 100px;
+}
+
+.conteneur {
+	text-align: center;
+}
+
+#WebGLCanvas {
+	display: inline-block;
+	width:200px;
+	height: 200px;
+}
+
+#title {
+	display: inline-block;
+	font-size: 40px;
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: 'space_ageregular';
+	width: 300px;
+}
+
+#WebGLCanvas, #title {
+	margin:0 10px; /* espacement horizontal des blocs */
+	vertical-align:middle;
+	text-align:left; /* on rétablit l'alignement du texte */
+}
+
+
+.img {
+	text-align: center;
+}
+
+.GoToMainPage {
+	text-align: center;
+	font-size: 30px;
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+	margin: 20px 0 20px 0;
+	letter-spacing: 10px;
+	font-family: 'aeroliteregular';
+}
+
+.GoToMainPage a:hover {
+	color: #00192d;
+	cursor: pointer;
+}
+
+#ReturnFromRobotic h1, #ReturnFromSpace h1 {
+	font-family: 'aeroliteregular';
+	color: blue;
+	width: 40px;
+    font-size: 50px;
+    word-wrap: break-word;
+    letter-spacing: 20px;
+    cursor: pointer;
+}
+
+#Intro {
+
+}
+
+#MainPage {
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+#wheelDiv {
+	height: 600px;
+	width: 600px;
+	margin:auto;
+}
+
+#wheelDiv>svg {
+	height: 100%;
+	width: 100%;
+}
+
+@media (max-width: 600px) {
+	#wheelDiv {
+		height: 350px;
+		width: 350px;
+	}
+}
+
+@media (max-width: 400px) {
+	#wheelDiv {
+		height: 300px;
+		width: 300px;
+	}
+}
