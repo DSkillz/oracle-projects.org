@@ -4,9 +4,9 @@
 <head>
 	<title>The Oracle Projects</title>
 
-	<link rel="stylesheet" href="/style.css" />
-	<link rel="icon" href="/pythie.png" type="image/png">
-	<link title="timeline-styles" rel="stylesheet" href="/timeline.css">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="icon" href="pythie.png" type="image/png">
+	<link title="timeline-styles" rel="stylesheet" href="timeline.css">
 </head>
 
 <body>
@@ -15,7 +15,7 @@
 			<div id="WebGLCanvas"></div>
 			<div id="title">The Oracle Projects</div>
 		</div>
-		<div class="img"><img src="/tiresias.jpg" title="Tiresias, blind greek Oracle" alt="Tiresias, blind greek Oracle" /></div>
+		<div class="img"><img src="tiresias.jpg" title="Tiresias, blind greek Oracle" alt="Tiresias, blind greek Oracle" /></div>
 		<div class="GoToMainPage"><a>Technological, Scientific Monitoring<br>& Prospective</a></div>
 	</div>
 
@@ -52,14 +52,14 @@
 		<div id="timeline-space"></div>
 	</div>
 
-	<script type="text/javascript" src="/three.min.js"></script>
+	<script type="text/javascript" src="three.min.js"></script>
 	<!--<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>-->
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-	<script src="/timeline-min.js"></script>
-	<script type="text/javascript" src="/raphael.min.js"></script>
-	<script type="text/javascript" src="/raphael.icons.min.js"></script>
-	<script src="/raphael.icons.min.js.map"></script>
-	<script type="text/javascript" src="/wheelnav.js"></script>
+	<script src="timeline-min.js"></script>
+	<script type="text/javascript" src="raphael.min.js"></script>
+	<script type="text/javascript" src="raphael.icons.min.js"></script>
+	<script src="raphael.icons.min.js.map"></script>
+	<script type="text/javascript" src="wheelnav.js"></script>
 
 	<script type="text/javascript">
 		var scene = new THREE.Scene();
