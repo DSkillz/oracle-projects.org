@@ -10,24 +10,24 @@ body {
 
 @font-face {
     font-family: 'space_ageregular';
-    src: url('/space-age_webfontkit/space age-webfont.eot');
-    src: url('/space-age_webfontkit/space age-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/space-age_webfontkit/space age-webfont.woff2') format('woff2'),
-         url('/space-age_webfontkit/space age-webfont.woff') format('woff'),
-         url('/space-age_webfontkit/space age-webfont.ttf') format('truetype'),
-         url('/space-age_webfontkit/space age-webfont.svg#space_ageregular') format('svg');
+    src: url('space-age_webfontkit/space age-webfont.eot');
+    src: url('space-age_webfontkit/space age-webfont.eot?#iefix') format('embedded-opentype'),
+         url('space-age_webfontkit/space age-webfont.woff2') format('woff2'),
+         url('space-age_webfontkit/space age-webfont.woff') format('woff'),
+         url('space-age_webfontkit/space age-webfont.ttf') format('truetype'),
+         url('space-age_webfontkit/space age-webfont.svg#space_ageregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'aeroliteregular';
-    src: url('/aerolite_webfontkit/Aerolite-webfont.eot');
-    src: url('/aerolite_webfontkit/Aerolite-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/aerolite_webfontkit/Aerolite-webfont.woff2') format('woff2'),
-         url('/aerolite_webfontkit/Aerolite-webfont.woff') format('woff'),
-         url('/aerolite_webfontkit/Aerolite-webfont.ttf') format('truetype'),
-         url('/aerolite_webfontkit/Aerolite-webfont.svg#aeroliteregular') format('svg');
+    src: url('aerolite_webfontkit/Aerolite-webfont.eot');
+    src: url('aerolite_webfontkit/Aerolite-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aerolite_webfontkit/Aerolite-webfont.woff2') format('woff2'),
+         url('aerolite_webfontkit/Aerolite-webfont.woff') format('woff'),
+         url('aerolite_webfontkit/Aerolite-webfont.ttf') format('truetype'),
+         url('aerolite_webfontkit/Aerolite-webfont.svg#aeroliteregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
